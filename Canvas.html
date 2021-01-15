@@ -1,0 +1,39 @@
+<html>
+  <script src='https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js'></script>
+  <h1>Toward a canvas</h1>
+  <canvas id="d1">
+  </canvas>
+  <canvas id="d2">
+  </canvas>
+  <p>
+  <input type="button" value="Yellow&Red" onclick="doYellow()">
+   <input type="button" value="Lime&Black" onclick="doLime()">
+  <input type="button" value="White&Blue" onclick="doWhite()">
+    <input type="button" value="Lime&Green" onclick="ChangeColor()">
+  </p>
+  <p>
+    <h2>Demo for  color picker</h2>
+  <canvas id="d3">
+  </canvas>
+  <input type ="color" value="#001A57" id="clr" onchange="docolor()">
+  </p>
+<p>
+<h2> Demo for Slider</h2>
+  <canvas id="d4">
+  </canvas>
+  <input type="range" min="10" max="140" value ="10" id="sldr" oninput="dosquare()">
+  </p>
+<p>
+<h2> Uploading an Image</h2>
+<canvas id="can">
+</canvas>
+
+<input type="file" multiple="false" accept="image/*" id="finput" onchange ="upload()">
+</p>
+<p>
+<h2> Conversion to Grayscale Image</h2>
+<canvas id="can1">
+</canvas>
+<input type="button" value="Make Gray Scale" onclick="makeGrayScale()">
+</p>
+</html>
